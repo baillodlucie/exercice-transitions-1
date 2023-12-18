@@ -41,13 +41,22 @@
   color: white;
 }
 
-#ex06 .wrapper {
+#ex06 .wrapper:hover .box {
+  background-color: #11445a;
+}
+
+#ex06 .box {
   transition-property: background-color;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
 }
 
-#ex06 .wrapper:hover {
+#ex07 .wrapper:hover .box {
   background-color: #11445a;
-  color: white;
+}
+
+#ex07 .box :nth-child {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
 }
